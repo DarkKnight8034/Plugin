@@ -3,9 +3,9 @@ package io.github.darkknight8034.plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.PluginManager;
 
-import io.github.darkknight8034.plugin.Listener;
+// import io.github.darkknight8034.plugin.Listener;
 
-public class Main extends JavaPlugin
+public class Plugin extends JavaPlugin
 {
 
   @Override
@@ -13,9 +13,9 @@ public class Main extends JavaPlugin
   {
   
     getLogger().info("Plugin has been enabled!");
-    PluginManager pluginManager = getServer().getPluginManager();
-    Listener listener = new Listener(this);
-    pluginManager.registerEvents(listener, this);
+    // PluginManager pluginManager = getServer().getPluginManager();
+    // Listener listener = new Listener(this);
+    // pluginManager.registerEvents(listener, this);
 
   }
 

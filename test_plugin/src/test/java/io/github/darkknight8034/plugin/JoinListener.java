@@ -7,10 +7,10 @@ import org.bukkit.entity.Player;
 
 import io.github.darkknight8034.plugin.Main;
 
-public class Listener implements Listener
+public class JoinListener implements Listener
 {
 
-    public Listener(Main plugin)
+    public JoinListener(Plugin plugin)
     {}
 
     @EventHandler
