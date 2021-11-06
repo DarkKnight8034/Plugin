@@ -9,8 +9,16 @@ public class main extends JavaPlugin
   public void onEnable()
   {
   
-    getLogger().info("Plugin is live!");
-  
+    getLogger().info("Plugin has been enabled!");
+
+  }
+
+  @Override
+  public void onDisable()
+  {
+
+    getLogger().info("Plugin has been disabled!");
+
   }
 
 }

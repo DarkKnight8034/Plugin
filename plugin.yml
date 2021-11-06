@@ -1,0 +1,4 @@
+name: Test_Plugin
+main: io.github.darkknight8034.plugin.main
+version: 1.0
+commands:
