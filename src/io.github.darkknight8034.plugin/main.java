@@ -3,6 +3,8 @@ package io.github.darkknight8034.plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.PluginManager;
 
+import io.github.darkknight8034.plugin.Listener;
+
 public class Main extends JavaPlugin
 {
 
