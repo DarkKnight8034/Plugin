@@ -1,0 +1,7 @@
+name: Test_Plugin
+main: io.github.darkknight8034.plugin.Main
+author: DarkKnight8034
+version: 1.0
+api-version: 1.17
+description: Testing plugins
+commands:
